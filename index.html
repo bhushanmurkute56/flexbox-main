@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    .main
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        background-color: blueviolet;
+        align-items: start;
+        margin: 20px;
+        padding: 20px;
+        border: 2px double black;
+        flex-wrap: wrap;
+        border-radius: 20px;
+    }
+    .box1
+    {
+        
+        background-color: rgb(215, 212, 23);
+        margin: 20px;
+        padding: 20px;
+        height: 250px;
+        width: 250px;
+        border: 2px double black;
+        border-radius: 20px;
+    }
+    .box2
+    {
+        background-color: rgb(255, 0, 34);
+        margin: 20px;
+        padding: 20px;
+        height: 250px;
+        width: 250px;
+        border: 2px solid rgb(17, 198, 59);
+        border-radius: 20px;
+    }
+    .box3
+    {
+        background-color: rgb(205, 38, 186);
+        margin: 20px;
+        padding: 20px;
+        height: 250px;
+        width: 250px;
+        border: 2px double orange;
+        border-radius: 20px;
+    }
+</style>
+<body>
+    <div class="main">
+    <b class="box1"><img src="cricket.jpg" alt="cricket" 
+        height= "80%" width="80%">
+        <br><br>Cricket</b>
+    <b class="box2"><img src="football.avif" alt="football"
+        height="80%" width="80%"><br><br>
+        Football</b>
+    <b class="box3"><img src="tennis.jpg" alt="tennis"
+        height="80%" width="80%">
+        <br><br>Tennis</b>
+    </div>
+</body>
+</html>
